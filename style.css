@@ -18,7 +18,22 @@ header {
     border: 1px solid #1e7bff;
     color: white;
     background-color: #1e7bff;
-    
+
+}
+
+.btn-secondary {
+    border: 1px solid #1e7bff;
+    background-color: #1e7bff;
+    color: white;
+    font-weight: bold;
+    padding: 11px 16px 8px;
+}
+
+.btn-secondary:hover {
+    border: 1px solid #1633ff;
+    color: white;
+    background-color: #1633ff;
+
 }
 
 #header-top {
@@ -104,6 +119,87 @@ header {
     font-size: 23px;
     padding-right: 15px;
 }
+
+#jumbotron {
+    padding-top: 150px;
+    background-image: url("img/bg-home.jpg");
+    color: white;
+    padding-bottom: 80px;
+}
+
+#jumbotron .row {
+    margin-top: 50px;
+}
+
+#jumbotron h1 {
+    font-size: 62px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+#jumbotron p {
+    font-size: 24px;
+    opacity: 0.8;
+}
+
+#jumbotron form {
+    background-color: white;
+    color: black;
+    padding: 32px;
+    border-radius: 5px;
+}
+
+#jumbotron form p {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#jumbotron form .btn-secondary {
+    width: 100%;
+}
+
+.separator {
+    overflow: hidden;
+}
+
+.separator span:before,
+.separator span:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.separator span:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.separator span:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.btn-third {
+    background-color: #f2f8ff;
+    font-weight: bold;
+    border: 1px solid #1e7bff;
+    color: black;
+    width: 40%;
+    float: left;
+}
+.btn-third:last-child {
+    float:right;
+}
+
+.fa-google {
+    color: red;
+}
+
 
 body {
     height:100vh;
