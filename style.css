@@ -386,3 +386,41 @@ header {
     color: blue;
     font-weight: bold;
 }
+
+#data-centers {
+    background-image: url("img/background-servers.jpg");
+    background-size: cover;
+}
+
+#data-centers h5 {
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+#data-centers table td {
+    color: silver;
+    font-size: 13px;
+}
+
+#data-centers table td:first-child {
+    color: white;
+    font-weight: bold;
+}
+
+#data-centers table td:last-child {
+    text-align: right
+}
+
+#data-centers table td a {
+    color: #00d7d2;
+}
+
+#data-centers table td a:hover {
+    color: blue;
+}
+
+#data-centers .table>tbody>tr:first-child>td {
+    border-top: 0;
+}
