@@ -309,21 +309,21 @@ header {
     margin-bottom: 25px;
 }
 
-#features2 {
+.screenshot-layout {
     background-color: #f3f5f9;
 }
 
-#features2 h3 {
+.screenshot-layout h3 {
     font-size: 36px;
     color: #031b4e;
     font-weight: bold;
 }
 
-#features2 p .h3 {
+.screenshot-layout p .h3 {
     font-size: 20px;
 }
 
-#features2 i:hover {
+.screenshot-layout i:hover {
     color: blue;
 }
 
@@ -357,4 +357,32 @@ header {
 .page-dot li:first-child {
     background-color: blue;
     margin-left: 0;
+}
+
+#features3 {
+    background-color: white;
+    font-size: 16px;
+}
+
+#features3 h4 {
+    font-size: 36px;
+    color: #031b4e;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+#features3 .h4 {
+    font-size: 18px;
+    color: #031b4e;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+#features3 p {
+    color: rgba(3,27,78,0.7);
+}
+
+#features3 a {
+    color: blue;
+    font-weight: bold;
 }
