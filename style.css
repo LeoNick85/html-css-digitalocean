@@ -96,6 +96,7 @@ header {
 
 .navbar {
     border-radius: 0px;
+    background-color: white;
 }
 
 #header-bottom a img {
@@ -256,6 +257,54 @@ header {
     text-decoration: none;
 }
 
+
+
 #features {
     background-color: white;
+    font-size: 16px;
+}
+
+#features h2 {
+    font-size: 36px;
+    color: #031b4e;
+    font-weight: bold;
+}
+
+#features p {
+    color: rgba(3,27,78,0.7);
+}
+
+#features p .h3 {
+    font-size: 20px;
+}
+
+#features ul {
+    list-style-type: none;
+}
+
+#features ul li {
+    height: 50px;
+    width: 100%;
+    color: rgba(3,27,78,0.7);
+    border-left: 2px solid #e5e8ed;
+    line-height: 50px;
+    padding-left: 20px;
+}
+
+#features ul li:first-child{
+    color: #031b4e;
+    border-left: 2px solid blue;
+    font-weight: bold;
+}
+
+#features ul li:hover {
+    color: #031b4e;
+    font-weight: bold;
+}
+
+#features .h4 {
+    font-size: 18px;
+    color: #031b4e;
+    font-weight: bold;
+    margin-bottom: 25px;
 }
