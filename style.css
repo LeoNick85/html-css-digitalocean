@@ -3,7 +3,15 @@
 }
 
 header {
+    z-index: 50;
+}
 
+.margin-top-section {
+    margin-top: 20px;
+}
+
+.margin-bottom-section {
+    margin-bottom: 20px;
 }
 
 .btn-primary {
@@ -48,6 +56,7 @@ header {
     height: 40px;
     position: fixed;
     width: 100%;
+    z-index: 50;
 }
 
 #header-top small {
@@ -74,11 +83,13 @@ header {
     position: fixed;
     margin-top: 40px;
     width: 100%;
+    z-index: 50;
 }
 
 .navbar {
     border-radius: 0px;
 }
+
 #header-bottom a img {
     width: 172px;
     float: left;
@@ -155,17 +166,24 @@ header {
     margin-bottom: 20px;
 }
 
+#jumbotron form input {
+    padding: 22px 8px;
+}
+
 #jumbotron form .btn-secondary {
     width: 100%;
+    margin-bottom: 15px;
 }
 
 .separator {
     overflow: hidden;
+    color: #9b888b;
+    margin-bottom: 15px;
 }
 
 .separator span:before,
 .separator span:after {
-  background-color: #000;
+  background-color: #e5e8ed;
   content: "";
   display: inline-block;
   height: 1px;
@@ -189,9 +207,13 @@ header {
     font-weight: bold;
     border: 1px solid #1e7bff;
     color: black;
-    width: 40%;
+    width: 48%;
     float: left;
+    text-align: center;
+    padding: 14px 0px;
+    margin-bottom: 15px;
 }
+
 .btn-third:last-child {
     float:right;
 }
@@ -200,8 +222,33 @@ header {
     color: red;
 }
 
+#jumbotron small {
+    font-size: 12px;
+}
+
 
 body {
     height:100vh;
     background-color: blue;
+}
+
+#partners {
+    background-color: #f3f5f9;
+}
+
+#partners p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #a8b1c3;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#partners a {
+    color: #1e7bff;
+    font-size: 16px;
+}
+
+#partners a {
+    text-decoration: none;
 }
