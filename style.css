@@ -497,3 +497,31 @@ header {
     font-size: 16px;
     padding: 14px 38px;
 }
+
+footer {
+    font-size: 14px;
+    background-color: #010e28;
+    color: #9c9d98;
+}
+
+footer .title {
+    color: white;
+    margin-bottom: 19px;
+}
+
+footer ul li {
+    margin-bottom: 8px;
+}
+
+footer a {
+    color: #9c9d98;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+footer row:first-child {
+    border-bottom: 1px solid grey;
+}
