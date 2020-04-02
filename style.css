@@ -442,3 +442,42 @@ header {
 #data-centers .table>tbody>tr:first-child>td {
     border-top: 0;
 }
+
+.quote-box {
+    background-color: white;
+    border: 1px solid #e5e8ed;
+    height: 360px;
+    width: 100%;
+    padding: 32px;
+}
+
+.quote-box img {
+    width: 175px;
+}
+
+.quote-box p {
+    margin:0px;
+    color: #939cb0;
+    font-size: 16px;
+}
+
+.quote-box p:nth-child(2) {
+    margin-top: 25px;
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+
+.quote-box p:nth-child(3) {
+    font-weight: bold;
+}
+
+.quote-box p:nth-child(4) {
+    margin-bottom: 16px;
+}
+
+.quote-box a {
+    font-size: 16px;
+    font-weight: bold;
+    color: blue;
+    margin-top: 16px;
+}
