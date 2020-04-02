@@ -522,6 +522,20 @@ footer a:hover {
     text-decoration: none;
 }
 
-footer row:first-child {
-    border-bottom: 1px solid grey;
+footer .row:last-child {
+    border-top: 1px solid grey;
+}
+
+#colophon {
+    height:50px;
+    line-height: 50px;
+    padding-top: 30px;
+}
+
+#colophon svg {
+vertical-align: middle;
+}
+
+#colophon li {
+    font-size: 25px;
 }
